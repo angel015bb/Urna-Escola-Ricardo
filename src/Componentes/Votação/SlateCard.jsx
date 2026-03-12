@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Check, Vote } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 
 export default function SlateCard({ slate, isSelected, onSelect, index }) {
   const isNullVote = slate.id === "null";

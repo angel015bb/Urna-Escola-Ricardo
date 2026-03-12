@@ -9,13 +9,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 
-import SlateManager from "../Componentes/Admin/SlateManager.jsx";
-import VoteCharts from "../Componentes/Admin/VoteCharts.jsx";
-import AdminStats from "../Componentes/Admin/DataExport.jsx";
-import EngagementDashboard from "../Componentes/Admin/EngagementDashboard.jsx";
-import TimelineChart from "../Componentes/Admin/TimelineChart.jsx";
-import NotificationManager from "../Componentes/Admin/NotificationManager.jsx";
-import AuditLogViewer from "../Componentes/Admin/AuditLogViewer.jsx";
+import SlateManager from "../Componentes/Administração/SlateManager";
+import VoteCharts from "../Componentes/Administração/VoteCharts";
+import AdminStats from "../Componentes/Administração/AdminStats";
+import DataExport from "../Componentes/Administração/DataExport";
+import EngagementDashboard from "../Componentes/Administração/EngagementDashboard";
+import TimelineChart from "../Componentes/Administração/TimelineChart";
+import NotificationManager from "../Componentes/Administração/NotificationManager";
+import AuditLogViewer from "../Componentes/Administração/AuditLogViewer";
+
 
 const ADMIN_KEY = "puccetti2026";
 

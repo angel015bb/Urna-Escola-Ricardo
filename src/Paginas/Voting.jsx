@@ -7,12 +7,12 @@ import { Button } from "../Componentes/UI/button.jsx";
 import { Link } from "react-router-dom";
 import { toast } from "sonner";
 
-import VoterRegistrationForm from "../Componentes/voting/VoterRegistrationForm.jsx";
-import TermsModal from "../Componentes/voting/TermsModal.jsx";
-import SlateCard from "../Componentes/voting/SlateCard.jsx";
-import VoteConfirmation from "../Componentes/voting/VoteConfirmation.jsx";
-import VoteReceipt from "../Componentes/voting/VoteReceipt.jsx";
-import Screensaver from "../Componentes/voting/Screensaver.jsx";
+import VoterRegistrationForm from "../Componentes/Votação/VoterRegistrationForm";
+import TermsModal from "../Componentes/Votação/TermsModal";
+import SlateCard from "../Componentes/Votação/SlateCard";
+import VoteConfirmation from "../Componentes/Votação/VoteConfirmation";
+import VoteReceipt from "../Componentes/Votação/VoteReceipt";
+import Screensaver from "../Componentes/Votação/Screensaver";
 
 const STEPS = {
   REGISTER: "register",
