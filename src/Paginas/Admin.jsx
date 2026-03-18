@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Input } from "../Componentes/UI/input";
 import { Button } from "../Componentes/UI/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../Componentes/UI/tabs";
-import { Lock, ArrowLeft, BarChart3, Settings, Download, Vote } from "lucide-react";
+import { Lock, ArrowLeft, ChartBar as BarChart3, Settings, Download, Vote } from "lucide-react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
