@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { base44 } from "@/api/base44Client";
-import { Button } from "../Componentes/UI/button";
-import { Input } from "../Componentes/UI/input";
-import { Label } from "../Componentes/UI/label";
+import { base44 } from "../../API/client";
+import { Button } from "../UI/button";
+import { Input } from "../UI/input";
+import { Label } from "../UI/label";
 import { Bell, Mail, Send } from "lucide-react";
 import { toast } from "sonner";
 

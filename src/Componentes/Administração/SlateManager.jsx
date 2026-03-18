@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { base44 } from "@/api/base44Client";
+import { base44 } from "../../API/client";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { Input } from "../Componentes/UI/input";
-import { Button } from "../Componentes/UI/button";
-import { Label } from "../Componentes/UI/label";
-import { Textarea } from "../Componentes/UI/textarea";
+import { Input } from "../UI/input";
+import { Button } from "../UI/button";
+import { Label } from "../UI/label";
+import { Textarea } from "../UI/textarea";
 import { Plus, Trash2, Upload, Image } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { toast } from "sonner";

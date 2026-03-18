@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Button } from "../Componentes/UI/button";
+import { Button } from "../UI/button";
 import { Download, CheckCircle2 } from "lucide-react";
 import { QRCodeSVG } from "qrcode.react";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Button } from "../Componentes/UI/button";
+import { Button } from "../UI/button";
 import { CheckCircle2, AlertTriangle } from "lucide-react";
 
 export default function VoteConfirmation({ open, slate, onConfirm, onCancel, isLoading }) {

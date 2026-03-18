@@ -1,14 +1,14 @@
 import React from 'react';
-import { Toaster } from "./Componentes/UI/toaster"; // Ajustado para sua pasta
+import { Toaster } from "sonner";
 import { QueryClientProvider } from '@tanstack/react-query';
-import { queryClientInstance } from './lib/query-client'; // Trocado @/ por ./Lib
+import { queryClientInstance } from './lib/query-client';
 import { pagesConfig } from './pages.config';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import PageNotFound from './lib/PageNotFound'; // Ajustado para L maiúsculo
-import { AuthProvider, useAuth } from './lib/AuthContext'; // Trocado @/ por ./Lib
-import UserNotRegisteredError from './Componentes/UserNotRegisteredError'; // Ajustado para C maiúsculo
-import Voting from './Paginas/Voting'; // Ajustado para P maiúsculo
-import Admin from './Paginas/Admin'; // Ajustado para P maiúsculo
+import PageNotFound from './lib/PageNotFound';
+import { AuthProvider, useAuth } from './lib/AuthContext';
+import UserNotRegisteredError from './Componentes/UserNotRegisteredError';
+import Voting from './Paginas/Voting';
+import Admin from './Paginas/Admin';
 
 const { Pages, Layout, mainPage } = pagesConfig;
 

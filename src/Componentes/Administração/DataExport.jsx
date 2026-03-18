@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../Componentes/UI/button";
+import { Button } from "../UI/button";
 import { Download, FileSpreadsheet } from "lucide-react";
 import { toast } from "sonner";
 

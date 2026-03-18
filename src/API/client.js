@@ -1,7 +1,9 @@
 import { createClient } from '@base44/sdk';
-import { appParams } from '../lib/app-params'; // Usei ../ porque o @/ não funciona
+import { appParams } from '../lib/app-params';
 
 export const base44 = createClient({
-  apiKey: appParams.apiKey,
-  environment: appParams.environment
+  appId: appParams.appId,
+  token: appParams.token,
+  appBaseUrl: appParams.appBaseUrl,
+  functionsVersion: appParams.functionsVersion
 });

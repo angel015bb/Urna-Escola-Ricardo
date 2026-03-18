@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Input } from "../Componentes/UI/input";
-import { Button } from "../Componentes/UI/button";
-import { Label } from "../Componentes/UI/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../Componentes/UI/select";
+import { Input } from "../UI/input";
+import { Button } from "../UI/button";
+import { Label } from "../UI/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../UI/select";
 import { User, Mail, Hash, Users, BookOpen } from "lucide-react";
 import { motion } from "framer-motion";
 

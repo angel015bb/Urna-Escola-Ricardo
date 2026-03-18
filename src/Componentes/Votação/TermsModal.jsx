@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "../Componentes/UI/button";
-import { ScrollArea } from "../Componentes/UI/scroll-area";
+import { Button } from "../UI/button";
+import { ScrollArea } from "../UI/scroll-area";
 import { ShieldCheck } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 

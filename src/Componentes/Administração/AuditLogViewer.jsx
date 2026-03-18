@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery } from "@tanstack/react-query";
-import { base44 } from "@/api/base44Client";
-import { ScrollArea } from "../Componentes/UI/scroll-area";
+import { base44 } from "../../API/client";
+import { ScrollArea } from "../UI/scroll-area";
 import { Shield, Clock } from "lucide-react";
 
 export default function AuditLogViewer() {

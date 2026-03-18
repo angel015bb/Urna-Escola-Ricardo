@@ -3,7 +3,7 @@ import { base44 } from "../API/client";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
 import { Vote, Shield, Lock } from "lucide-react";
-import { Button } from "../Componentes/UI/button.jsx";
+import { Button } from "../Componentes/UI/button";
 import { Link } from "react-router-dom";
 import { toast } from "sonner";
 

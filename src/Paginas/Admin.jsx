@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { base44 } from "../API/client"; // Trocado para API
+import { base44 } from "../API/client";
 import { useQuery } from "@tanstack/react-query";
-import { Input } from "../Componentes/UI/input"; // Trocado para Componentes
+import { Input } from "../Componentes/UI/input";
 import { Button } from "../Componentes/UI/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../Componentes/UI/tabs";
 import { Lock, ArrowLeft, BarChart3, Settings, Download, Vote } from "lucide-react";
